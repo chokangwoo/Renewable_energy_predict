@@ -99,7 +99,7 @@ def fetch_weatherbit_range(api_key, lat, lon, start_date_str, end_date_str):
 if __name__ == "__main__":
     api_key ="" # weatherbit API입력
 
-    fetch_weatherbit_range(api_key, 35.000594, 126.425218, "2025-05-11", "2025-05-13") 
+    fetch_weatherbit_range(api_key, lat, log, "2025-05-11", "2025-05-13") 
 
 
 
