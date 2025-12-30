@@ -1,22 +1,22 @@
 #Weather bit information
-API_KEY ="754cfb3ea2024857a046436a75d0cc8f"
+API_KEY ="api-key"
 
 #google chrome exe download information
 #https://googlechromelabs.github.io/chrome-for-testing/
 
 
 #기상청 information
-USER_ID = 'ckw0529@naver.com'
-USER_PSD = 'kangwoo1081@'
+USER_ID = 'your-id'
+USER_PSD = 'your-password'
 
 
 # PostgreSQL information
 
-HOST = '103.218.163.71'      
-PORT = '10001'
-DBNAME = 'postgres'
-USER = 'admin'
-PASSWORD = 'admin'
+HOST = 'ip-address'      
+PORT = 'port-number'
+DBNAME = 'dbname'
+USER = 'user'
+PASSWORD = 'passward'
 
 
 #Gen list information
@@ -32,35 +32,35 @@ PLANT_ID = {'dongsan': 1, "solar1": 2}
 
 
 #동산태양광
-DONG_LAT=35.000594 #위도
-DONG_LON=126.425218  #경도
+DONG_LAT= #위도
+DONG_LON= #경도
 
 #솔라숲1호
-SOLAR1_LAT = 35.012121 #위도
-SOLAR1_LON = 126.496680 #경도
+SOLAR1_LAT = #위도
+SOLAR1_LON = #경도
 
 #다운로드 폴더 경로 지정
 Temp = {
-    'LDAPS': "/Users/kangwoo/Desktop/down"
+    'LDAPS': ""
 }
 
 
 #BackUp Path information
-GEN_PATH = "/Users/kangwoo/Desktop/gen_data"
+GEN_PATH = ""
 
-FORECAST_PATH = "/Users/kangwoo/Desktop/forecast_data"
+FORECAST_PATH = ""
 
-WEATHER_PATH = "/Users/kangwoo/Desktop/weather_data"
+WEATHER_PATH = ""
 
-RESULT_PATH = '/Users/kangwoo/Desktop/result_data'
+RESULT_PATH = ""
 
-DOWN_PATH = "/Users/kangwoo/Desktop/LDAPS"
+DOWN_PATH = ""
 
-CHROME_DRIVER_PATH = "/Users/kangwoo/Desktop/driver/chromedriver"
+CHROME_DRIVER_PATH = ""
 
-LDAPS_PATH = "/Users/kangwoo/Desktop/LDAPS"
+LDAPS_PATH = ""
 
-PREDICT_PARH = "/Users/kangwoo/Desktop/predict"
+PREDICT_PARH = ""
 
 
 #기상데이터 URL
@@ -92,5 +92,6 @@ LDPSColumn_update = ['target', 'issue',
                'clouds(%)',
                'ghi(W/m2)','precip(mm)',
                ]
+
 
 
